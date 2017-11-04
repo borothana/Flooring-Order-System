@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlooringOrder.BLL.OrderManager" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.BLL.OrderManagerFactory">
+    <Position X="0.5" Y="7" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.BLL.ProductManager" Collapsed="true">
+    <Position X="2.5" Y="6.25" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.BLL.ProductManagerFactory" Collapsed="true">
+    <Position X="2.5" Y="7" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.BLL.TaxManager" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.BLL.TaxManagerFactory" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.Response" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.AddOrderResponse" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.DisplayOrderResponse" Collapsed="true">
+    <Position X="5" Y="2" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.EditOrderResponse" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.RemoveOrderResponse" Collapsed="true">
+    <Position X="7.25" Y="2" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.DisplayProductResponse" Collapsed="true">
+    <Position X="9.75" Y="2" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Response.DisplayTaxResponse" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Taxs" Collapsed="true">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Products" Collapsed="true">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Model.Orders" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FlooringOrder.Data.FileOrderRepository" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlooringOrder.Data.ProductRepository" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlooringOrder.Data.TaxRepository" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FlooringOrder.UI.Workflows.OrderAddWorkflow" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\OrderAddWorkflow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringOrder.UI.Workflows.OrderEditWorkflow" Collapsed="true">
+    <Position X="4.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\OrderEditWorkflow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringOrder.UI.Workflows.OrderLookupWorkflow" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\OrderLookupWorkflow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringOrder.UI.Workflows.OrderRemoveWorkflow" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Workflows\OrderRemoveWorkflow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringOrder.UI.Program" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringOrder.UI.Menu" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringOrder.UI.ConsoleIO" Collapsed="true">
+    <Position X="4.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABgAAAAAAAAAAAAAABAAAAAAAAAAAAEAIAAI=</HashCode>
+      <FileName>ConsoleIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FlooringOrder.Model.Interface.IProductRepository" Collapsed="true">
+    <Position X="4.25" Y="3" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FlooringOrder.Model.Interface.ITaxRepository" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FlooringOrder.Model.Interface.IOrderRepository" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
